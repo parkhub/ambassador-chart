@@ -56,10 +56,6 @@ spec:
     pattern: /documentation/(.*)
     substitution: /docs/\1
   service: "127.0.0.1:8500"
-  add_response_headers:
-    cache-control:
-      value: "public, max-age=3600, immutable"
-      append: false
 ---
 apiVersion: getambassador.io/v2
 kind: Mapping

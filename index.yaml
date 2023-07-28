@@ -3,6 +3,34 @@ entries:
   ambassador:
   - apiVersion: v1
     appVersion: 1.12.1
+    created: "2023-07-28T22:19:29.465795637Z"
+    description: A Helm chart for Datawire Ambassador
+    digest: 069b7343c232c5fb335bf73f9781d75ed6114f1cbd0c09229babb639283a875c
+    home: https://www.getambassador.io/
+    icon: https://www.getambassador.io/images/logo.png
+    keywords:
+    - api gateway
+    - ambassador
+    - datawire
+    - envoy
+    maintainers:
+    - email: markus@maga.se
+      name: flydiverny
+    - email: flynn@datawire.io
+      name: kflynn
+    - email: nkrause@datawire.io
+      name: nbkrause
+    - email: lukeshu@datawire.io
+      name: lukeshu
+    name: ambassador
+    sources:
+    - https://github.com/datawire/ambassador
+    - https://github.com/prometheus/statsd_exporter
+    urls:
+    - https://github.com/parkhub/ambassador-chart/releases/download/ambassador-6.6.2/ambassador-6.6.2.tgz
+    version: 6.6.2
+  - apiVersion: v1
+    appVersion: 1.12.1
     created: "2023-07-28T22:07:13.250611737Z"
     description: A Helm chart for Datawire Ambassador
     digest: d37c99f9c83fb0577a4ec96e64683f8cbaf8fb0ce990c5d0c7e4b333d8dbe59d
@@ -29,4 +57,4 @@ entries:
     urls:
     - https://github.com/parkhub/ambassador-chart/releases/download/ambassador-6.6.1/ambassador-6.6.1.tgz
     version: 6.6.1
-generated: "2023-07-28T22:07:13.250620437Z"
+generated: "2023-07-28T22:19:29.465804637Z"
